@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="orangeMuda">#4caf50 </color>
+    <color name="Hijau">#66D88A  </color>
+    <color name="line2">#CD6155     </color>
+    <color name="line1"> #566573     </color>
+    <color name="toolbar"> #4caf50   </color>
+    <color name="Gagal">#b71c1c</color>
+    <color name="abuBiru">#5c6bc0</color>
+    <color name="colorBackground">#413e4f</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextHint">#51d8c7</color>
+    <color name="colorPremier">#f44336</color>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sistem_pakar_cabai">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".APP.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/chili"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/chili"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".AKTIVITY.Edit_Data_Penyakit"></activity>
+        <activity android:name=".AKTIVITY.Data_nilai_insert" />
+        <activity android:name=".ENTITY.Index" />
+        <activity android:name=".AKTIVITY.Bantuan" />
+        <activity android:name=".AKTIVITY.detail_data_penyakit" />
+        <activity android:name=".AKTIVITY.Hasil" />
+        <activity android:name=".ENTITY.kritik" />
+        <activity android:name=".AKTIVITY.tentang" />
+        <activity android:name=".AKTIVITY.Data_Diagnosa" />
+        <activity android:name=".AKTIVITY.Data_Penyakit_Insert" />
+        <activity android:name=".AKTIVITY.Data_Penyakit" />
+        <activity android:name=".AKTIVITY.Data_Solusi" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ENTITY.Register" />
+        <activity android:name=".ENTITY.Login" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

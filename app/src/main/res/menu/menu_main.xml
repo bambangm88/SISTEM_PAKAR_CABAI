@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bantuan"
+        app:showAsAction="collapseActionView"
+        android:title="Bantuan">
+    </item>
+
+    <item
+        android:id="@+id/tentang"
+        app:showAsAction="collapseActionView"
+        android:title="Tentang">
+    </item>
+
+    <item
+        android:id="@+id/keluar"
+        app:showAsAction="collapseActionView"
+        android:title="keluar">
+    </item>
+
+</menu>

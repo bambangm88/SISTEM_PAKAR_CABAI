@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvPenyakit_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    android:layout_marginBottom="0dp"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="2dp">
+
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/img_penyaki"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="false"
+            android:src="@drawable/loading_shape"/>
+
+
+            <TextView
+                android:padding="7dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/title_penyakit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
